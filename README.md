@@ -1,2 +1,2 @@
 # leakcanary_rom
-用于用于用于Android码yuanma码源码
+用于Android源码，L&M验证过
