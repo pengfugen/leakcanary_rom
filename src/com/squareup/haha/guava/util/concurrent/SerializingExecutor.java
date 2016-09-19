@@ -24,7 +24,7 @@ import java.util.concurrent.Executor;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * Executor ensuring that all Runnables submitted are executed in order,

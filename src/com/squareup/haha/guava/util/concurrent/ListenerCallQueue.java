@@ -26,7 +26,7 @@ import java.util.concurrent.Executor;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * A special purpose queue/executor that executes listener callbacks serially on a configured

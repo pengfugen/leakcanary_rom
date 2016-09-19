@@ -67,7 +67,7 @@ import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * A manager for monitoring and controlling a set of {@linkplain Service services}. This class

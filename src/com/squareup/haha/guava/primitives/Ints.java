@@ -35,7 +35,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.RandomAccess;
 
-import javax.annotation.CheckForNull;
+
 
 /**
  * Static utility methods pertaining to {@code int} primitives, that are not
@@ -674,7 +674,7 @@ public final class Ints {
    * @since 11.0
    */
   @Beta
-  @CheckForNull
+  
   @GwtIncompatible("TODO")
   public static Integer tryParse(String string) {
     return tryParse(string, 10);
@@ -702,7 +702,7 @@ public final class Ints {
    * @throws IllegalArgumentException if {@code radix < Character.MIN_RADIX} or
    *     {@code radix > Character.MAX_RADIX}
    */
-  @CheckForNull
+  
   @GwtIncompatible("TODO") static Integer tryParse(
       String string, int radix) {
     if (checkNotNull(string).isEmpty()) {

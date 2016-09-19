@@ -22,7 +22,7 @@
  * <p>This package is a part of the open-source
  * <a href="http://guava-libraries.googlecode.com">Guava libraries</a>.
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.html;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+

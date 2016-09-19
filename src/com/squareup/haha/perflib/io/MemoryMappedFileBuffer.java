@@ -25,7 +25,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-import sun.nio.ch.DirectBuffer;
+//import sun.nio.ch.DirectBuffer;
 
 public class MemoryMappedFileBuffer implements HprofBuffer {
 
@@ -89,7 +89,8 @@ public class MemoryMappedFileBuffer implements HprofBuffer {
     public void dispose() {
         try {
             for (int i = 0; i < mByteBuffers.length; i++) {
-                ((DirectBuffer) mByteBuffers[i]).cleaner().clean();
+                //((DirectBuffer) mByteBuffers[i]).cleaner().clean();
+				mByteBuffers[i].clear();
             }
         } catch (Exception ex) {
             // ignore, this is a best effort attempt.

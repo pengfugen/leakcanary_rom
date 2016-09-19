@@ -39,7 +39,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import com.squareup.haha.annotations.Nullable;
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 import com.squareup.haha.annotations.concurrency.Immutable;
 
 /**

@@ -24,8 +24,8 @@
  * "http://code.google.com/p/guava-libraries/wiki/MathExplained">
  * math utilities</a>.
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.math;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+
 

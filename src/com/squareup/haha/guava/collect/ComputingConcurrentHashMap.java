@@ -31,7 +31,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.atomic.AtomicReferenceArray;
 
 import com.squareup.haha.annotations.Nullable;
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * Adds computing functionality to {@link MapMakerInternalMap}.

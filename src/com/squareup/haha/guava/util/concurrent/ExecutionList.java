@@ -24,7 +24,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.squareup.haha.annotations.Nullable;
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * <p>A list of listeners, each with an associated {@code Executor}, that

@@ -43,7 +43,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.squareup.haha.annotations.Nullable;
-import javax.annotation.concurrent.ThreadSafe;
+
 
 /**
  * The {@code CycleDetectingLockFactory} creates {@link ReentrantLock} instances and
@@ -162,7 +162,7 @@ import javax.annotation.concurrent.ThreadSafe;
  * @since 13.0
  */
 @Beta
-@ThreadSafe
+
 public class CycleDetectingLockFactory {
 
   /**
@@ -173,7 +173,7 @@ public class CycleDetectingLockFactory {
    * @since 13.0
    */
   @Beta
-  @ThreadSafe
+  
   public interface Policy {
 
     /**

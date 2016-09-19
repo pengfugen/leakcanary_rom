@@ -222,5 +222,4 @@
  * <li>{@link com.squareup.haha.guava.collect.ForwardingTable}
  * </ul>
  */
-@javax.annotation.ParametersAreNonnullByDefault
 package com.squareup.haha.guava.collect;

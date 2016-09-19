@@ -62,8 +62,8 @@
  *   <li>{@link com.squareup.haha.guava.primitives.UnsignedLong}
  * </ul>
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.primitives;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+
 

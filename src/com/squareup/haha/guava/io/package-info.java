@@ -33,8 +33,8 @@
  *
  * @author Chris Nokleberg
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.io;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+
 

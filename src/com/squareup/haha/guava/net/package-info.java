@@ -23,8 +23,8 @@
  *
  * @author Craig Berry
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.net;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+
 

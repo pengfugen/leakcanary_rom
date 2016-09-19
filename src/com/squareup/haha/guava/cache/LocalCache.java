@@ -81,7 +81,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.squareup.haha.annotations.Nullable;
-import javax.annotation.concurrent.GuardedBy;
+import com.squareup.haha.annotations.concurrency.GuardedBy;
 
 /**
  * The concurrent hash map implementation built by {@link CacheBuilder}.

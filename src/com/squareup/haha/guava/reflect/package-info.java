@@ -19,5 +19,4 @@
  * It is a part of the open-source
  * <a href="http://guava-libraries.googlecode.com">Guava libraries</a>.
  */
-@javax.annotation.ParametersAreNonnullByDefault
 package com.squareup.haha.guava.reflect;

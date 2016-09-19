@@ -23,7 +23,7 @@ import com.squareup.haha.guava.base.Ticker;
 
 import java.util.concurrent.TimeUnit;
 
-import javax.annotation.concurrent.ThreadSafe;
+
 
 /**
  * A rate limiter. Conceptually, a rate limiter distributes permits at a
@@ -84,7 +84,7 @@ import javax.annotation.concurrent.ThreadSafe;
  */
 // TODO(user): switch to nano precision. A natural unit of cost is "bytes", and a micro precision
 //     would mean a maximum rate of "1MB/s", which might be small in some cases.
-@ThreadSafe
+
 @Beta
 public abstract class RateLimiter {
   /*

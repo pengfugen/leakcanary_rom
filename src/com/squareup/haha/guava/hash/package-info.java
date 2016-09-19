@@ -20,7 +20,7 @@
  * "http://code.google.com/p/guava-libraries/wiki/HashingExplained">
  * hashing</a>.
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.hash;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+

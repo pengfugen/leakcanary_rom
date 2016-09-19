@@ -60,7 +60,7 @@
  * </ul>
  *
  */
-@ParametersAreNonnullByDefault
+
 package com.squareup.haha.guava.base;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+
